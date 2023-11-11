@@ -1,7 +1,7 @@
 {
   "name": "@team/mf-header",
   "scripts": {
-    "start": "webpack serve -- --port 3000",
+    "start": "webpack serve --port 3000",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
